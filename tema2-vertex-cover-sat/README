@@ -1,0 +1,14 @@
+Alexandru Licuriceanu 325CD
+
+Tema 2 Analiza Algoritmilor
+
+Trial:
+    Pentru acest task am implementat un algoritm ce sustrage clauzele de
+care avem nevoie, le scrie in sat.cnf si apeleaza oracolul. Clauzele au fost
+extrase in functie de input, fiind explicate in codul principal. Dupa ce am 
+obtinut un raspuns de la sat solver il interpretam asltfel : indicii pozitivi
+(care nu sunt negati) reprezinta in matricea noastra initiala de sat coloanele, 
+iar fiecare coloana e corelata la randul ei cu pachetele initiale. Deci, in 
+cazul in care numarul ce nu este negat se afla, spre exemplu, in matrice pe 
+coloana cu numarul 3, pachetul cu indicele 3 va fi inclus in setul final pe 
+care trebuie sa il colectam.
